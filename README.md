@@ -1,6 +1,6 @@
 # dialog_information_to_specific_platform
 
-A new Flutter package project.
+Este pacote refere-se à widgets especializados de [online documentation](https://api.flutter.dev/flutter/material/AlertDialog-class.html) e [online documentation](https://api.flutter.dev/flutter/cupertino/CupertinoAlertDialog-class.html). Você precisa apenas invocar o widget deste pacote e, de acordo à plataforma em que sua aplicação esteja sendo executada, será renderizado um Material Dialog ou Cupertino Dialog.
 
 ## Getting Started
 
