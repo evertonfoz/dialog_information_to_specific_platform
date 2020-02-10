@@ -4,11 +4,15 @@ Este pacote refere-se à widgets especializados de [online documentation](https:
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Para a utilização deste pacote, antes de tudo, é preciso configurar o pubspec.yaml de acordo ao apresentado à seguir.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+dependencies:
+  dialog_information_to_specific_platform: <última-versão>
+
+Após a configuração, é preciso executar flutter packages get, na console/terminal ou em seu IDE.
+
+Em seu Widget é necessário importar os pacotes a seguir, onde o segundo será necessário apenas para a criação dos botões para a Dialog, mas é possível você enviar um List com seus Widgets.
+
+    import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
+    import 'package:dialog_information_to_specific_platform/flat_buttons/actions_flatbutton_to_alert_dialog.dart';
+
