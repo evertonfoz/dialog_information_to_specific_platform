@@ -13,6 +13,10 @@ Após a configuração, é preciso executar flutter packages get, na console/ter
 
 Em seu Widget é necessário importar os pacotes a seguir, onde o segundo será necessário apenas para a criação dos botões para a Dialog, mas é possível você enviar um List com seus Widgets.
 
-    import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
-    import 'package:dialog_information_to_specific_platform/flat_buttons/actions_flatbutton_to_alert_dialog.dart';
+>import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
+>import 'package:dialog_information_to_specific_platform/flat_buttons/actions_flatbutton_to_alert_dialog.dart';
+
+
+## Uso básico
+
 
