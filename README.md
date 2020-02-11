@@ -19,4 +19,6 @@ Em seu Widget é necessário importar os pacotes a seguir, onde o segundo será 
 
 ## Uso básico
 
+![A visão do teste de referência com um FAB para exibir a dialog](/assets/readme/figura_01.png)
+
 

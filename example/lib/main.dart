@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Package View Tester'),
     );
   }
 }
@@ -37,6 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.blue,
           child: Icon(Icons.message),
+          tooltip: 'Press do show the platform dialog',
           elevation: 10,
           onPressed: () async {
             await showDialog(
@@ -47,14 +48,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   Icons.error,
                   color: Colors.red,
                 ),
-                title: 'Não conseguimos',
-                message: 'Conteúdo',
-                buttons: [
-                  ActionsFlatButtonToAlertDialog(
-                    messageButton: 'Cancelar',
-                  ),
-                  //   InformationAlertDialog.createFlatButton(),
-                ],
+                title: 'Dialog title',
+                message: 'Dialog content',
+                // buttons: [
+                //   ActionsFlatButtonToAlertDialog(
+                //     messageButton: 'Cancelar',
+                //   ),
+                //   //   InformationAlertDialog.createFlatButton(),
+                // ],
               ),
             );
           }),
