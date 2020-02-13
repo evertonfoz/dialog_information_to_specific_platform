@@ -23,4 +23,6 @@ Como teste para a visualização de uma dialog, teremos inicialmente a imagem a 
 
 ![A visão do teste de referência com um FAB para exibir a dialog](/assets/readme/figura_01.png)
 
+![A visão do teste de referência com a exibição do dialog](/assets/readme/figura_02.png)
+
 
