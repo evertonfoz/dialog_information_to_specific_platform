@@ -10,7 +10,7 @@ class ActionsFlatButtonToAlertDialog extends StatelessWidget {
       {this.messageButton,
       this.textStyleMessageButton = const TextStyle(color: Colors.black),
       this.iconButton,
-      this.isEnabled})
+      this.isEnabled = true})
       : assert(messageButton != null || iconButton != null);
 
   @override

@@ -2,7 +2,7 @@ name: dialog_information_to_specific_platform
 description: displays dialog window with title, content and buttons, respecting the platform in execution.
 version: 0.0.1
 #author: Everton Coimbra de Araújo - evertoncoimbra@gmail.com
-homepage: https://github.com/evertonfoz/informationplatformdialog
+homepage: https://github.com/evertonfoz/dialog_information_to_specific_platform
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
