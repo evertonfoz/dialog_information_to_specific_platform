@@ -21,9 +21,7 @@ Em seu Widget é necessário importar os pacotes a seguir, onde o segundo será 
 
 Como teste para a visualização de uma dialog, teremos inicialmente a imagem a seguir, exibindo um Scaffold com um FAB que, ao acionado, exibirá a Dialog.
 
-![A visão do teste de referência com um FAB para exibir a dialog](/assets/readme/figura_01.png)
-
-![A visão do teste de referência com a exibição do dialog](/assets/readme/figura_02.png)
+![A visão do teste de referência com um FAB para exibir a dialog e a visão do teste de referência com a exibição do dialog](/assets/readme/figura_01.png)
 
 Para que possamos chegar as imagens anteriores, precisamos implementar o widget apresentado na sequência.
 
