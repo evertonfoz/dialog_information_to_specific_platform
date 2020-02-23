@@ -1,4 +1,5 @@
 import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
+import 'package:dialog_information_to_specific_platform/flat_buttons/actions_flatbutton_to_alert_dialog.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -49,12 +50,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 title: 'Dialog title',
                 message: 'Dialog content',
-                // buttons: [
-                //   ActionsFlatButtonToAlertDialog(
-                //     messageButton: 'Cancelar',
-                //   ),
-                //   //   InformationAlertDialog.createFlatButton(),
-                // ],
+                buttons: [
+                  ActionsFlatButtonToAlertDialog(
+                    messageButton: 'Cancelar',
+                  ),
+                  ActionsFlatButtonToAlertDialog(
+                    messageButton: 'Confirmar',
+                  ),
+                  //   InformationAlertDialog.createFlatButton(),
+                ],
               ),
             );
           }),
