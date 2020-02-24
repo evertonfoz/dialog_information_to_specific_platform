@@ -94,6 +94,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
 No exemplo anterior, deixamos o componente criar um botão padrão, pois ele não recebeu nenhum em especial. Agora, neste novo exemplo, vamos criar dois botões e então encaminhá-los ao componente e teremos uma figura semelhante a apresentada na sequência, que traz apenas a tela com o dialog.
 
-![A visão do teste de referência com um FAB para exibir a dialog e a visão do teste de referência com a exibição do dialog](/assets/readme/figura_01.png)
+![A do teste de referência com a exibição do dialog com botões instanciados de `ActionsFlatButtonToAlertDialog`](/assets/readme/figura_02.png)
 
 Para que possamos chegar as imagens anteriores, precisamos implementar o widget apresentado na sequência.
