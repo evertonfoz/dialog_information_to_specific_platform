@@ -52,10 +52,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 message: 'Dialog content',
                 buttons: [
                   ActionsFlatButtonToAlertDialog(
-                    messageButton: 'Cancelar',
+                    messageButton: 'Cancel',
                   ),
                   ActionsFlatButtonToAlertDialog(
-                    messageButton: 'Confirmar',
+                    messageButton: 'Confirm',
                   ),
                   //   InformationAlertDialog.createFlatButton(),
                 ],

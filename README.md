@@ -101,10 +101,13 @@ Para que possamos chegar a imagem anterior, precisamos adicionar o seguinte par�
 ```
 buttons: [
   ActionsFlatButtonToAlertDialog(
-    messageButton: 'Cancelar',
+    messageButton: 'Cancel',
   ),
   ActionsFlatButtonToAlertDialog(
-    messageButton: 'Confirmar',
+    messageButton: 'Confirm',
   ),
 ],
 ```
+
+
+## Verificação do botão pressionado na dialog
