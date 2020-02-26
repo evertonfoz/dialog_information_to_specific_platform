@@ -97,3 +97,14 @@ No exemplo anterior, deixamos o componente criar um botão padrão, pois ele nã
 ![A do teste de referência com a exibição do dialog com botões instanciados de `ActionsFlatButtonToAlertDialog`](/assets/readme/figura_02.png)
 
 Para que possamos chegar a imagem anterior, precisamos adicionar o seguinte parâmetro ao nosso `InformationAlertDialog()`.
+
+```
+buttons: [
+  ActionsFlatButtonToAlertDialog(
+    messageButton: 'Cancelar',
+  ),
+  ActionsFlatButtonToAlertDialog(
+    messageButton: 'Confirmar',
+  ),
+],
+```
