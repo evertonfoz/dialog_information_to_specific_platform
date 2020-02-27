@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
           tooltip: 'Press do show the platform dialog',
           elevation: 10,
           onPressed: () async {
-            await showDialog(
+            var buttonPressed = await showDialog(
               barrierDismissible: false,
               context: context,
               child: InformationAlertDialog(
@@ -61,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             );
+            print('You pressed de button with "$buttonPressed" caption');
           }),
     );
   }
