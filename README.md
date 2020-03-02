@@ -111,3 +111,16 @@ buttons: [
 
 
 ## Verificação do botão pressionado na dialog
+
+Utilizando o código que já temos implementado, vamos à poucas alterações para identificarmos qual botão foi pressionado na Dialog. Veja na sequência. Note a declaração de `buttonPressed` e que ela está recebendo o retorno de `showDialog()` e, após isso, apenas exibindo o resultado, mas poderia ser feito o que for necessário para sua lógica aqui.
+
+
+```
+onPressed: () async {
+  var buttonPressed = await showDialog(...);
+  ...
+}
+print('You pressed de button with "$buttonPressed" caption');
+```
+
+Utilize este componente, adapte-o ou passe a mim o que precisa que seja melhorado.
