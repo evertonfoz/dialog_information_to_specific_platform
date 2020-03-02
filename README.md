@@ -1,19 +1,19 @@
 # dialog_information_to_specific_platform
 
-Este pacote refere-se à widgets especializados de [AlertDialog](https://api.flutter.dev/flutter/material/AlertDialog-class.html) e [CupertinoAlertDialog](https://api.flutter.dev/flutter/cupertino/CupertinoAlertDialog-class.html). Você precisa apenas invocar o widget deste pacote e, de acordo à plataforma em que sua aplicação esteja sendo executada, será renderizado um Material Dialog ou Cupertino Dialog.
+This package refers to the specialized widgets from [AlertDialog] (https://api.flutter.dev/flutter/material/AlertDialog-class.html) and [CupertinoAlertDialog] (https://api.flutter.dev/flutter/ cupertino / CupertinoAlertDialog-class.html). You only need to invoke the widget from this package and, depending on the platform on which your application is running, a Material Dialog or Cupertino Dialog will be rendered.
 
 ## Getting Started
 
-Para a utilização deste pacote, antes de tudo, é preciso configurar o pubspec.yaml de acordo ao apresentado à seguir.
+To use this package, first of all, you need to configure pubspec.yaml according to what is presented below.
 
 ```
 dependencies:
   dialog_information_to_specific_platform: <última-versão>
 ```
 
-Após a configuração, é preciso executar flutter packages get, na console/terminal ou em seu IDE.
+After configuration, you need to run flutter packages get, on the console / terminal or in your IDE.
 
-Em seu Widget é necessário importar os pacotes a seguir, onde o segundo será necessário apenas para a criação dos botões para a Dialog, mas é possível você enviar um List com seus Widgets.
+In your Widget it is necessary to import the following packages, where the second will be necessary only for the creation of the buttons for Dialog, but it is possible for you to send a List with your Widgets.
 
 ```
 import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
@@ -23,11 +23,11 @@ import 'package:dialog_information_to_specific_platform/flat_buttons/actions_fla
 
 ## Uso básico
 
-Como teste para a visualização de uma dialog, teremos inicialmente a imagem a seguir, exibindo um Scaffold com um FAB que, ao acionado, exibirá a Dialog.
+As a test for viewing a dialog, we will initially have the following image, displaying a Scaffold with a FAB that, when activated, will display the Dialog.
 
-![A visão do teste de referência com um FAB para exibir a dialog e a visão do teste de referência com a exibição do dialog](/assets/readme/figura_01.png)
+![The benchmark view with a FAB to display the dialog and the benchmark view with the dialog display](/assets/readme/figura_01.png)
 
-Para que possamos chegar as imagens anteriores, precisamos implementar o widget apresentado na sequência.
+In order to get to the previous images, we need to implement the widget presented below.
 
 ```
 import 'package:dialog_information_to_specific_platform/dialog_information_to_specific_platform.dart';
@@ -90,13 +90,13 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 
 
-## Uso com envio de botões pré-definidos
+## Use with sending pre-defined buttons
 
-No exemplo anterior, deixamos o componente criar um botão padrão, pois ele não recebeu nenhum em especial. Agora, neste novo exemplo, vamos criar dois botões e então encaminhá-los ao componente e teremos uma figura semelhante a apresentada na sequência, que traz apenas a tela com o dialog.
+In the previous example, we let the component create a standard button, as it received none in particular. Now, in this new example, we are going to create two buttons and then forward them to the component and we will have a figure similar to the one shown in the sequence, which only brings up the screen with the dialog.
 
-![A do teste de referência com a exibição do dialog com botões instanciados de `ActionsFlatButtonToAlertDialog`](/assets/readme/figura_02.png)
+![The one of the reference test with the display of the dialog with instantiated buttons of `ActionsFlatButtonToAlertDialog`](/assets/readme/figura_02.png)
 
-Para que possamos chegar a imagem anterior, precisamos adicionar o seguinte parâmetro ao nosso `InformationAlertDialog()`.
+In order to get to the previous image, we need to add the following parameter to our `InformationAlertDialog()`.
 
 ```
 buttons: [
@@ -110,9 +110,9 @@ buttons: [
 ```
 
 
-## Verificação do botão pressionado na dialog
+## Checking the button pressed in the dialog
 
-Utilizando o código que já temos implementado, vamos à poucas alterações para identificarmos qual botão foi pressionado na Dialog. Veja na sequência. Note a declaração de `buttonPressed` e que ela está recebendo o retorno de `showDialog()` e, após isso, apenas exibindo o resultado, mas poderia ser feito o que for necessário para sua lógica aqui.
+Using the code that we have already implemented, we will make a few changes to identify which button was pressed in the Dialog. See below. Note the `buttonPressed` declaration and that it is receiving the return of `showDialog () `and, after that, just displaying the result, but what could be done for your logic here could be done.
 
 
 ```
@@ -123,4 +123,4 @@ onPressed: () async {
 print('You pressed de button with "$buttonPressed" caption');
 ```
 
-Utilize este componente, adapte-o ou passe a mim o que precisa que seja melhorado.
+Use this component, adapt it or give me what you need to improve.
