@@ -4,7 +4,7 @@ This package refers to the specialized widgets from [AlertDialog] (https://api.f
 
 ## Getting Started
 
-To use this package, first of all, you need to configure pubspec.yaml according to what is presented below.
+To use this package, first of all, you need to configure `pubspec.yaml` according to what is presented below.
 
 ```
 dependencies:
@@ -21,7 +21,7 @@ import 'package:dialog_information_to_specific_platform/flat_buttons/actions_fla
 ```
 
 
-## Uso básico
+## Basic use
 
 As a test for viewing a dialog, we will initially have the following image, displaying a Scaffold with a FAB that, when activated, will display the Dialog.
 
@@ -112,7 +112,7 @@ buttons: [
 
 ## Checking the button pressed in the dialog
 
-Using the code that we have already implemented, we will make a few changes to identify which button was pressed in the Dialog. See below. Note the `buttonPressed` declaration and that it is receiving the return of `showDialog () `and, after that, just displaying the result, but what could be done for your logic here could be done.
+Using the code that we have already implemented, we will make a few changes to identify which button was pressed in the Dialog. See below. Note the `buttonPressed` declaration and that it is receiving the return of `showDialog ()` and, after that, just displaying the result, but what could be done for your logic here could be done.
 
 
 ```

@@ -1,9 +1,12 @@
 ## [0.0.1] - 12/02/2020
 
-* Liberação inicial para testes de publicação de e verificação do Markdown no README.md.
+* Initial release for Markdown publishing and checking tests in README.md.
 
 ## [0.0.2] - 19/02/2020
 
-* Ajustes no valor padrão para a propriedade **isEnabled** do **ActionsFlatButtonToAlertDialog**.
-* Primeira validação no Markdown do README.md para tradução para o inglês
+* Adjustments to the default value for the ** isEnabled ** property of ** ActionsFlatButtonToAlertDialog **.
+* First README.md Markdown validation for English translation.
 
+## [0.0.3] - 03/03/2020
+
+* Translate to English.
