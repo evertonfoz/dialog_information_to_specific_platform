@@ -58,5 +58,4 @@ class InformationAlertDialog extends StatelessWidget {
     ));
     return buttons;
   }
-  
 }

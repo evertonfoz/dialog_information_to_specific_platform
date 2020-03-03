@@ -10,3 +10,7 @@
 ## [0.0.3] - 03/03/2020
 
 * Translate to English.
+
+## [0.0.4] - 03/03/2020
+
+* After pub.dev initial sugestions.
