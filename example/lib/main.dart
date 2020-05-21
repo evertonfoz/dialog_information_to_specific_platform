@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.blue,
           child: Icon(Icons.message),
-          tooltip: 'Press do show the platform dialog',
+          tooltip: 'Press to show the platform dialog',
           elevation: 10,
           onPressed: () async {
             var buttonPressed = await showDialog(

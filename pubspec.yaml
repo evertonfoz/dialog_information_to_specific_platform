@@ -1,6 +1,6 @@
 name: dialog_information_to_specific_platform
 description: displays dialog window with title, content and buttons, respecting the platform in execution.
-version: 0.0.4
+version: 0.0.5
 #author: Everton Coimbra de Araújo - evertoncoimbra@gmail.com
 homepage: https://github.com/evertonfoz/dialog_information_to_specific_platform
 

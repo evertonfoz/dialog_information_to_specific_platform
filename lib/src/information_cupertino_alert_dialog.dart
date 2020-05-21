@@ -30,7 +30,7 @@ class InformationCupertinoAlertDialog extends StatelessWidget {
                   width: 0,
                 ),
           (this.title != null)
-              ? Text(this.title)
+              ? Expanded(child: Text(this.title))
               : SizedBox(
                   width: 0,
                 ),

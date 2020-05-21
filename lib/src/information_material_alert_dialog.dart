@@ -17,7 +17,7 @@ class InformationMaterialAlertDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       title: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        //mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           (this.iconTitle != null)
               ? this.iconTitle
@@ -30,7 +30,7 @@ class InformationMaterialAlertDialog extends StatelessWidget {
                   width: 0,
                 ),
           (this.title != null)
-              ? Text(this.title)
+              ? Expanded(child: Text(this.title))
               : SizedBox(
                   width: 0,
                 ),
